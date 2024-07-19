@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+}
+body{
+    height: auto;
+}
+.page{
+    width: 100%;
+    height: inherit;
+}
+.cont{
+    background-color:  #ffbb00;
+    height: 70px;
+    width: 100%;
+}
+input{
+    width: 100%;
+}
+.email p{
+    color: white;
+    display: inline;
+    font-weight: bolder;
+}
+.email{
+    float: left;
+    margin: 20px;
+}
+.ph{
+    display: inline block;
+    margin: 20px;
+    float: left;
+}
+.ph p{
+    color: white;
+    display: inline;
+    font-weight: bolder;
+}
+.icon{
+    margin: 20px;
+    float: right;
+    margin-top: -5px;
+}
+.icon button{
+    border-radius: 20px;
+    height: 30px;
+    margin: 5px;
+    font-weight: bolder;
+    background-color: #ffbb00;
+}
+.icon img{
+    margin-left: 15px;
+}
+.nav-item{
+    margin-left: 40px;
+    font-weight: bolder;
+}
+.nav{
+    background-color:white ;
+}
+.nav-item:focus{
+    color: aqua;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.mid img{
+    background-size: cover;
+}
+.a{
+    border: 2px solid rgb(224, 220, 220);
+    height: 500px;
+    width: 380px;
+}
+.b{
+    border: 2px solid rgb(224, 220, 220);
+    height: 500px;
+    width: 380px;
+}
+.c{
+    border: 2px solid rgb(224, 220, 220);
+    height: 500px;
+    width: 380px;
+}
+.d{
+    border: 2px solid rgb(224, 220, 220);
+    height: 500px;
+    width: 380px;
+}
+.e{
+    border: 2px solid rgb(224, 220, 220);
+    height: 500px;
+    width: 380px;
+}
+.f{
+    border: 2px solid rgb(224, 220, 220);
+    height: 500px;
+    width: 380px;
+    
+}
+figure p{
+    margin: 20px;
+    font-size: 20px;
+}
+figure a{
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+.fon{
+    width: 100%;
+    height: auto;
+    background-color: rgb(48, 46, 46);
+}
+/* .one{
+    width: 23%;
+    float: left;
+    margin: 10px;
+}
+.two{
+    width: 23%;
+    float: left;
+    margin: 10px;
+}
+.three{
+    width: 23%;
+    float: left;
+    margin: 10px;
+}
+.four{
+    width: 23%;
+    float: left;
+    margin: 10px;
+} */
+.fon p{
+    color: rgb(151, 149, 149);
+    margin: 10px;
+}
+.footer{
+    background-color: #ffbb00;
+    height: 30px;
+    width: 100%;
+    margin: 0;
+    margin-top: -10px;
+}
+.footer p{
+    font-weight: bolder;
+
+}
+
+@media (max-width : 550px) {
+    .cont{
+        background-color:  #ffbb00;
+        height: 120px;
+        width: 100%;
+    }
+    .email{
+        margin: 3px;
+    }
+    .ph{
+        margin: 3px;
+    }
+    .icon{
+        margin: 3px;
+    }
+}
+
